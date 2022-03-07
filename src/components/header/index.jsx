@@ -33,7 +33,7 @@ export const Header = () => {
                  onClick={() => setIsModalMenuOpen(!isModalMenuOpen)}>
                 {isModalMenuOpen ? <MenuCloseIcon/> : <MenuIcon/>}
             </div>
-            <MobileMenu/>
+            <MobileMenu isOpen={isModalMenuOpen}/>
         </header>
     );
 };
