@@ -6,6 +6,7 @@ import {NavItem} from '../nav-item';
 import {NavMenu} from '../nav-menu';
 import {COMPANY, FEATURES} from '../../constants/constants';
 import {Button} from '../button';
+import {MobileMenu} from '../mobile-menu';
 
 export const Header = () => {
 
@@ -32,6 +33,7 @@ export const Header = () => {
                  onClick={() => setIsModalMenuOpen(!isModalMenuOpen)}>
                 {isModalMenuOpen ? <MenuCloseIcon/> : <MenuIcon/>}
             </div>
+            <MobileMenu/>
         </header>
     );
 };
