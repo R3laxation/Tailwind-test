@@ -21,6 +21,9 @@ export const MobileMenu = ({isOpen}) => {
                     </NavItem >
                     <NavItem text={'Career'}/>
                     <NavItem text={'About'}/>
+                    <div>
+
+                    </div>
                 </nav>
             </div>
         </>
