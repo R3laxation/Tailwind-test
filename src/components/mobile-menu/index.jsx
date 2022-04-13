@@ -24,7 +24,7 @@ export const MobileMenu = ({isOpen}) => {
                     <NavItem text={'About'}/>
                     <div className={'flex flex-col space-y-5'}>
                         <Button>Logg in</Button>
-                        <Button>Register</Button>
+                        <Button hasBorder>Register</Button>
                     </div>
                 </nav>
             </div>
