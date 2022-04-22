@@ -2,6 +2,7 @@ import React from 'react';
 import {COMPANY, FEATURES} from '../../constants/constants';
 import {MenuItem} from '../menu-item';
 import {NavItem} from '../nav-item';
+import {Button} from '../button';
 
 export const MobileMenu = ({isOpen}) => {
     return (
@@ -22,7 +23,8 @@ export const MobileMenu = ({isOpen}) => {
                     <NavItem text={'Career'}/>
                     <NavItem text={'About'}/>
                     <div className={'flex flex-col space-y-5'}>
-                        <Button>Loggin</Button>
+                        <Button>Logg in</Button>
+                        <Button>Register</Button>
                     </div>
                 </nav>
             </div>
