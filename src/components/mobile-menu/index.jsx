@@ -1,4 +1,6 @@
 import React from 'react';
+import {FEATURES} from '../../constants/constants';
+import {MenuItem} from '../menu-item';
 
 export const MobileMenu = ({isOpen}) => {
     return (
@@ -7,7 +9,7 @@ export const MobileMenu = ({isOpen}) => {
             <div className={`absolute right-0 top-0 w-1/2 bg-white z-20 justify-center min-height-[150vh] ${isOpen ? 'flex' : 'hidden'}`}>
                 <nav className={'my-20'}>
                     <div className={'flex flex-col space-y-5 p-2'}>
-
+                        {FEATURES.map(({text, icon}) => <MenuItem text={text} icon={icon} key={text}/>)}
                     </div>
                 </nav>
             </div>
