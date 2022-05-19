@@ -14,7 +14,7 @@ export const MobileMenu = ({isOpen}) => {
                             {FEATURES.map(({text, icon}) => <MenuItem text={text} icon={icon} key={text}/>)}
                         </div>
                     </NavItem>
-                    <NavItem>
+                    <NavItem text={'Company'}>
 
                     </NavItem>
                 </nav>
