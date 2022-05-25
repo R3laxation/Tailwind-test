@@ -1,5 +1,5 @@
 import React from 'react';
-import {FEATURES} from '../../constants/constants';
+import {COMPANY, FEATURES} from '../../constants/constants';
 import {MenuItem} from '../menu-item';
 import {NavItem} from '../nav-item';
 
@@ -16,7 +16,7 @@ export const MobileMenu = ({isOpen}) => {
                     </NavItem>
                     <NavItem text={'Company'}>
                         <div className={'flex flex-col space-y-5 p-2'}>
-
+                            {COMPANY.map(({text, icon}) => <MenuItem text={text} icon={icon} key={text}/>)}
                         </div>
                     </NavItem>
                 </nav>
