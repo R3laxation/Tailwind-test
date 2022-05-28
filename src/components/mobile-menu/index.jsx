@@ -18,7 +18,9 @@ export const MobileMenu = ({isOpen}) => {
                         <div className={'flex flex-col space-y-5 p-2'}>
                             {COMPANY.map(({text, icon}) => <MenuItem text={text} icon={icon} key={text}/>)}
                         </div>
-                    </NavItem>
+                    </NavItem >
+                    <NavItem text={'Career'}/>
+
                 </nav>
             </div>
         </>
