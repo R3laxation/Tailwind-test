@@ -14,6 +14,7 @@ export const MainSection = () => {
                 <h1 className={'text-3xl xl:text-8xl font-black xl:whitespace-pre-line mt-6'}>{`Make\n remote work`}</h1>
                 <p className={'text-medium-gray text-lg my-12 whitespace-pre-line'}>  {`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}</p>
                 <Button isFilled>Learn More</Button>
+                <div className={'flex'}></div>
             </div>
         </section>
     );
