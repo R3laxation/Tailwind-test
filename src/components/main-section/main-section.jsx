@@ -17,6 +17,7 @@ export const MainSection = () => {
                 <div className={'flex'}>
                     <Databiz/>
                     <Audiophile/>
+                    <Meet/>
                 </div>
             </div>
         </section>
