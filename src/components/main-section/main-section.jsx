@@ -21,6 +21,9 @@ export const MainSection = () => {
                     <Databiz/>
                 </div>
             </div>
+            <div className={'flex w-2/4 mt-20'}>
+                <img src={MenImage} alt={'men'}/>
+            </div>
         </section>
     );
 };
