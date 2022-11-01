@@ -18,6 +18,7 @@ export const MainSection = () => {
                     <Databiz/>
                     <Audiophile/>
                     <Meet/>
+                    <Databiz/>
                 </div>
             </div>
         </section>
