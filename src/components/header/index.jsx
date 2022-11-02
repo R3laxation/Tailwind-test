@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <header className={'flex'}>
             <LogoIcon/>
-            <nav>
+            <nav className={'flex'}>
                 <NavItem/>
                 <NavItem/>
                 <NavItem/>
