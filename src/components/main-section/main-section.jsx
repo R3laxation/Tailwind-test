@@ -5,6 +5,7 @@ import { ReactComponent as Databiz } from '../../images/client-databiz.svg';
 import { ReactComponent as Audiophile } from '../../images/client-audiophile.svg';
 import { ReactComponent as Meet } from '../../images/client-meet.svg';
 import { ReactComponent as Maker } from '../../images/client-maker.svg';
+import {Button} from '../button';
 
 export const MainSection = () => {
     return (
@@ -13,6 +14,7 @@ export const MainSection = () => {
                 <h1 className={'text-8xl font-black mt-60 whitespace-pre-line'}>{`Make\n remote work`}</h1>
                 <p className={'text-medium-gray text-lg mt-12 whitespace-pre-line'}>  {`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}</p>
             </div>
+            <Button/>
         </section>
     );
 };
