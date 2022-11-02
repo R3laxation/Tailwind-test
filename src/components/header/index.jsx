@@ -7,7 +7,7 @@ export const Header = () => {
         <header className={'flex'}>
             <LogoIcon/>
             <nav className={'flex'}>
-                <NavItem/>
+                <NavItem />
                 <NavItem/>
                 <NavItem/>
             </nav>
