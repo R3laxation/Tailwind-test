@@ -10,7 +10,8 @@ export const MainSection = () => {
     return (
         <section className={'flex w-full mt-6'}>
             <div className="relative w-2/4 text-left mt-12">
-                <h1 className={'text-8xl font-black mt-6 whitespace-pre-line'}>{`Make\n remote work`}</h1>
+                <h1 className={'text-8xl font-black mt-60 whitespace-pre-line'}>{`Make\n remote work`}</h1>
+                <p className={'text-medium-gray text-lg mt-12 whitespace-pre-line'}>  {`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}</p>
             </div>
         </section>
     );
