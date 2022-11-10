@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {ReactComponent as ArrowDownIcon } from '../../images/icon-arrow-down.svg';
+import {ReactComponent as ArrowUpIcon } from '../../images/icon-arrow-up.svg';
 
 export const NavItem = ({text = '', children}) => {
 
@@ -13,7 +14,8 @@ export const NavItem = ({text = '', children}) => {
                 >
                     {text}
                 </span>
-                <ArrowDownIcon/>
+                {children && selected !== text && <ArrowDownIcon/>}
+                {children && selected === text && <ArrowUpIcon/>}
             </div>
             {children}
         </div>
