@@ -1,6 +1,7 @@
 import React from 'react';
 import {ReactComponent as LogoIcon} from '../../images/logo.svg';
 import {NavItem} from '../nav-item';
+import {NavMenu} from '../nav-menu';
 
 export const Header = () => {
     return (
@@ -8,7 +9,7 @@ export const Header = () => {
             <LogoIcon/>
             <nav className={'flex space-x-6 ml-8 items-center'}>
                 <NavItem text={'Feature'}>
-                    asd
+                    <NavMenu/>
                 </NavItem>
                 <NavItem text={'Company'}/>
                 <NavItem text={'Careers'}/>
