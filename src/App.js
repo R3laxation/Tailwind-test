@@ -1,9 +1,10 @@
 import {Wrapper} from './components/wrapper';
+import {Header} from './components/header';
 
 function App() {
   return (
       <Wrapper>
-          Hello world!
+          <Header/>
       </Wrapper>
   );
 }
