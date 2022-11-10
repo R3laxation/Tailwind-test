@@ -2,7 +2,7 @@ import React from 'react';
 import {ReactComponent as LogoIcon} from '../../images/logo.svg';
 import {NavItem} from '../nav-item';
 import {NavMenu} from '../nav-menu';
-import {FEATURES} from '../../constants/constants';
+import {COMPANY, FEATURES} from '../../constants/constants';
 
 export const Header = () => {
     return (
@@ -12,7 +12,9 @@ export const Header = () => {
                 <NavItem text={'Feature'}>
                     <NavMenu items={FEATURES}/>
                 </NavItem>
-                <NavItem text={'Company'}/>
+                <NavItem text={'Feature'}>
+                    <NavMenu items={COMPANY}/>
+                </NavItem>
                 <NavItem text={'Careers'}/>
                 <NavItem text={'About'}/>
             </nav>
