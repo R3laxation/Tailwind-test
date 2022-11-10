@@ -5,6 +5,7 @@ import {ReactComponent as ArrowUpIcon } from '../../images/icon-arrow-up.svg';
 export const NavItem = ({text = '', children}) => {
 
     const [selected, setSelected] = useState('');
+    console.log(selected)
 
     return (
         <div className={'relative'}>
