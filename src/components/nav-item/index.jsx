@@ -1,9 +1,12 @@
 import React from 'react';
 
-export const NavItem = () => {
+export const NavItem = ({text = ''}) => {
     return (
-        <div>
-            NavItem
+        <div className={'relative'}>
+            <div className={'flex space-x-2 cursor-pointer'}>
+                <span className={'text-medium-gray'}>{text}</span>
+            </div>
+
         </div>
     );
 };
