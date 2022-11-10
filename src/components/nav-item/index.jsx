@@ -17,7 +17,7 @@ export const NavItem = ({text = '', children}) => {
                 {children && selected !== text && <ArrowDownIcon/>}
                 {children && selected === text && <ArrowUpIcon/>}
             </div>
-            {children}
+            {selected && children}
         </div>
     );
 };
