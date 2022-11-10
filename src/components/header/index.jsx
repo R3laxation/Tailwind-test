@@ -4,9 +4,11 @@ import {NavItem} from '../nav-item';
 
 export const Header = () => {
     return (
-        <header>
+        <header className={'flex'}>
             <LogoIcon/>
             <nav>
+                <NavItem/>
+                <NavItem/>
                 <NavItem/>
             </nav>
         </header>
