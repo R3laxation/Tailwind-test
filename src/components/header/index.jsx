@@ -1,9 +1,10 @@
 import React from 'react';
+import {ReactComponent as LogoIcon} from '../../images/logo.svg';
 
 export const Header = () => {
     return (
-        <div>
-            Header
-        </div>
+        <header>
+            <LogoIcon/>
+        </header>
     );
 };
