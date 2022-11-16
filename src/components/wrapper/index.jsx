@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Wrapper = () => {
+export const Wrapper = ({children}) => {
     return (
-        <div>
-            Wrapper
+        <div className={'container mx-auto'} >
+            {children}
         </div>
     );
 };
