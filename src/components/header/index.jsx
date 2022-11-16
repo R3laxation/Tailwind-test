@@ -7,9 +7,10 @@ export const Header = () => {
         <header className={'flex'}>
             <LogoIcon/>
             <nav className={'flex'}>
-                <NavItem />
-                <NavItem/>
-                <NavItem/>
+                <NavItem text={'Feature'} />
+                <NavItem text={'Company'}/>
+                <NavItem text={'Careers'}/>
+                <NavItem text={'About'}/>
             </nav>
         </header>
     );
