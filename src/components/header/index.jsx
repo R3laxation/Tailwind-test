@@ -3,6 +3,7 @@ import {ReactComponent as LogoIcon} from '../../images/logo.svg';
 import {NavItem} from '../nav-item';
 import {NavMenu} from '../nav-menu';
 import {COMPANY, FEATURES} from '../../constants/constants';
+import {Button} from '../button';
 
 export const Header = () => {
     return (
@@ -19,7 +20,7 @@ export const Header = () => {
                 <NavItem text={'About'}/>
             </nav>
             <div className="ml-auto flex space-x-5">
-
+                <Button>Logg in</Button>
             </div>
         </header>
     );
