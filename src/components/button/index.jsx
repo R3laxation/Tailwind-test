@@ -1,6 +1,12 @@
 import React from 'react';
 
-export const Button = () => {
+export const Button = (
+    {
+        children = '',
+        hasBorder = false,
+        isFilled = 'false'
+    }
+) => {
     return (
         <div>
 
