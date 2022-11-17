@@ -2,9 +2,9 @@ import React from 'react';
 
 export const MenuItem = ({text = '', icon}) => {
     return (
-        <div>
+        <div className={'flex w-ful space-x-4'}>
             {icon}
-            <span>{text}</span>
+            <span className={'text-medium-gray hover:text-almost-black cursor-pointer'}>{text}</span>
         </div>
     );
 };
