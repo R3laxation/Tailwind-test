@@ -21,6 +21,7 @@ export const Header = () => {
             </nav>
             <div className="ml-auto flex space-x-5">
                 <Button>Logg in</Button>
+                <Button hasBorder>Register</Button>
             </div>
         </header>
     );
