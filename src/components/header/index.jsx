@@ -18,6 +18,9 @@ export const Header = () => {
                 <NavItem text={'Careers'}/>
                 <NavItem text={'About'}/>
             </nav>
+            <div className="ml-auto flex space-x-5">
+
+            </div>
         </header>
     );
 };
