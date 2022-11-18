@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactComponent as LogoIcon} from '../../images/logo.svg';
-import {ReactComponent as IconMenu} from '../../images/icon-menu.svg';
+import {ReactComponent as MenuIcon} from '../../images/icon-menu.svg';
 import {NavItem} from '../nav-item';
 import {NavMenu} from '../nav-menu';
 import {COMPANY, FEATURES} from '../../constants/constants';
@@ -24,7 +24,7 @@ export const Header = () => {
                 <Button>Logg in</Button>
                 <Button hasBorder>Register</Button>
             </div>
-            <div className={'flex'}>
+            <div className={'flex xl:hidden ml-auto cursor-pointer z-30'}>
                 <MenuIcon/>
             </div>
         </header>
