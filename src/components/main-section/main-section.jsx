@@ -26,6 +26,9 @@ export const MainSection = () => {
             <div className="hidden w-2/4 mt-20 xl:flex xl:order-2">
                 <img src={ MenImage } alt="hero" />
             </div>
+            <div>
+                <img src={ MenImageMobile } alt="hero" />
+            </div>
         </section>
     );
 };
