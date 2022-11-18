@@ -1,5 +1,6 @@
 import React from 'react';
 import {ReactComponent as LogoIcon} from '../../images/logo.svg';
+import {ReactComponent as IconMenu} from '../../images/icon-menu.svg';
 import {NavItem} from '../nav-item';
 import {NavMenu} from '../nav-menu';
 import {COMPANY, FEATURES} from '../../constants/constants';
@@ -22,6 +23,9 @@ export const Header = () => {
             <div className="hidden ml-auto xl:flex space-x-5">
                 <Button>Logg in</Button>
                 <Button hasBorder>Register</Button>
+            </div>
+            <div className={'flex'}>
+                <MenuIcon/>
             </div>
         </header>
     );
