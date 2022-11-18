@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const MobileMenu = () => {
+export const MobileMenu = ({isOpen}) => {
     return (
         <div>
 
