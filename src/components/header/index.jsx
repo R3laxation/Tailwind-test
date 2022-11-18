@@ -19,7 +19,7 @@ export const Header = () => {
                 <NavItem text={'Careers'}/>
                 <NavItem text={'About'}/>
             </nav>
-            <div className="ml-auto flex space-x-5">
+            <div className="hidden ml-auto xl:flex space-x-5">
                 <Button>Logg in</Button>
                 <Button hasBorder>Register</Button>
             </div>
