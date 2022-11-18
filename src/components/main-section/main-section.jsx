@@ -10,19 +10,21 @@ import {Button} from '../button';
 export const MainSection = () => {
     return (
         <section className={'w-full flex mt-6 h-screen justify-between'}>
-            <div className={"relative text-center order-2 xl:order-1 xl:text-left xl:w-2/4 xl:mt-60 mt-12"}>
-                <h1 className={'text-3xl xl:text-8xl font-black xl:whitespace-pre-line mt-6'}>{`Make\n remote work`}</h1>
-                <p className={'text-medium-gray text-lg my-12 whitespace-pre-line'}>  {`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}</p>
-                <Button isFilled>Learn More</Button>
-                <div className={'flex justify-around absolute bottom-2 w-full'}>
-                    <Databiz/>
-                    <Audiophile/>
-                    <Meet/>
-                    <Databiz/>
+            <div className="relative text-center order-2 xl:order-1 xl:text-left xl:w-2/4 xl:mt-60 mt-12">
+                <h1 className='text-3xl xl:text-8xl font-black xl:whitespace-pre-line mt-6'>{`Make\n remote work`}</h1>
+                <p className='text-medium-gray text-lg my-12 whitespace-pre-line'>
+                    {`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}
+                </p>
+                <Button isFilled={ true }>Learn More</Button>
+                <div className="mt-20 flex justify-around xl:mt-0 xl:absolute bottom-2 xl:space-x-20">
+                    <Databiz />
+                    <Audiophile />
+                    <Meet />
+                    <Maker />
                 </div>
             </div>
-            <div className={'flex w-2/4 mt-20'}>
-                <img src={MenImage} alt={'men'}/>
+            <div className="hidden w-2/4 mt-20 xl:flex xl:order-2">
+                <img src={ MenImage } alt="hero" />
             </div>
         </section>
     );
